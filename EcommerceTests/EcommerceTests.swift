@@ -20,7 +20,7 @@ class EcommerceTests: XCTestCase {
     func testSum() {
         // when
         let first = 5
-        let second = 10
+        let second = 10 
 
         // then
         let result = sum(value: first, valueTwo: second)
