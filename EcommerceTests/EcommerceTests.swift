@@ -17,17 +17,6 @@ class EcommerceTests: XCTestCase {
 
     }
 
-    func testSum() {
-        // when
-        let first = 5
-        let second = 10 
-
-        // then
-        let result = sum(value: first, valueTwo: second)
-
-        XCTAssert(result == 15)
-    }
-
     override func tearDown() {
 
     }
